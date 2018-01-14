@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  
+  <!-- tische -->
+
+  <sd_roundtable_small.label>kleiner runder Tisch</sd_roundtable_small.label>
+  <sd_roundtable_small.description>Sie essen am Tisch, sofern Stühle vorhanden sind.</sd_roundtable_small.description>
+
+  <sd_roundtable.label>runder Tisch</sd_roundtable.label>
+  <sd_roundtable.description>Sie essen am Tisch, sofern Stühle vorhanden sind.</sd_roundtable.description>
+
+  <sd_roundtable_big.label>grosser runder Tisch</sd_roundtable_big.label>
+  <sd_roundtable_big.description>Sie essen am Tisch, sofern Stühle vorhanden sind.</sd_roundtable_big.description>
+
+</LanguageData>
