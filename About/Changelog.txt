@@ -35,3 +35,6 @@ personal changelog for mod "round tables"
 				2x2 round same as 2x2 square one (= lower beauty)
 				3x3 round same as 3x3 squae one (= more hp,, more mass, lower beauty, more work+cost to build)
 				
+- 15/01/2018
+
+	- added modsync
