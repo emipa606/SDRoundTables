@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--================================ round tables ======================================-->
+  <ThingDef ParentName="TableBase">
+    <defName>sd_roundtable_small</defName>
+    <label>table small(round)</label>
+    <graphicData>
+      <texPath>sd_roundtable/sd_roundtable_small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <shadowData>
+        <volume>(0.8, 0.75,0.6)</volume>
+        <offset>(0,0,-0.2)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.05,0.05,0.9,0.9)</rect>
+      </damageData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>4</Beauty>
+      <Mass>5</Mass>
+    </statBases>
+    <costStuffCount>30</costStuffCount>
+    <size>(1,1)</size>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+  </ThingDef>
+  <ThingDef ParentName="TableGatherSpotBase">
+    <defName>sd_roundtable</defName>
+    <label>table (round)</label>
+    <graphicData>
+      <texPath>sd_roundtable/sd_roundtable</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(4,4)</drawSize>
+      <shadowData>
+        <volume>(1.6,2,1.4)</volume>
+        <offset>(0,0,-0.3)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.05,0.27,1.9,1.73)</rect>
+      </damageData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>1500</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>1</Beauty>
+      <Mass>10</Mass>
+    </statBases>
+    <size>(2,2)</size>
+    <costStuffCount>50</costStuffCount>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+  </ThingDef>
+  <ThingDef ParentName="TableGatherSpotBase">
+    <defName>sd_roundtable_big</defName>
+    <label>table big(round)</label>
+    <graphicData>
+      <texPath>sd_roundtable/sd_roundtable_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,3)</drawSize>
+      <shadowData>
+        <volume>(2.4,2.5,2.1)</volume>
+        <offset>(0,0,-0.3)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.125,0.27,2.75,2.73)</rect>
+      </damageData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>175</MaxHitPoints>
+      <WorkToBuild>3300</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>2</Beauty>
+      <Mass>22</Mass>
+    </statBases>
+    <size>(3,3)</size>
+    <costStuffCount>100</costStuffCount>
+    <building>
+      <buildingSizeCategory>Medium</buildingSizeCategory>
+    </building>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+  </ThingDef>
+</Defs>
