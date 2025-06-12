@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: table (round) -->
+  <sd_roundtable.label>table (round)</sd_roundtable.label>
+  <!-- EN: People eat off tables when chairs are placed facing them. -->
+  <sd_roundtable.description>People eat off tables when chairs are placed facing them.</sd_roundtable.description>
+  <!-- EN: table big(round) -->
+  <sd_roundtable_big.label>table big(round)</sd_roundtable_big.label>
+  <!-- EN: People eat off tables when chairs are placed facing them. -->
+  <sd_roundtable_big.description>People eat off tables when chairs are placed facing them.</sd_roundtable_big.description>
+  <!-- EN: table small(round) -->
+  <sd_roundtable_small.label>table small(round)</sd_roundtable_small.label>
+  <!-- EN: People eat off tables when chairs are placed facing them. -->
+  <sd_roundtable_small.description>People eat off tables when chairs are placed facing them.</sd_roundtable_small.description>
+</LanguageData>
